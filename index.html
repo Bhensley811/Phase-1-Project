@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="header">FIZZY</h1>
+  </div>
+  <div class="app_body">
+    <div class="column">
+      <div class="recipe_list">
+        <h2>Cocktail Menu:</h2>
+        <div class="search_button">
+          <form>
+            <input type="text" id="search" placeholder="Drink Name" />
+            <button type="button" id="search_button">Search</button>
+          </form>
+        </div>
+        <nav class="recipes">
+          <ul id="recipe_list"></ul>
+        </nav>
+      </div>
+      <div class="favorites_list">
+        <h2>Your Favorites:</h2>
+        <nav class="favorites">
+          <ul id="favorites_list"></ul>
+        </nav>
+      </div>
+    </div>
+    <div class="main_wrapper">
+      <div class="main_view" id="main-id">
+        <div class="main_view_content">
+          <h1 class="main_header">Old Fashioned</h1>
+          <div class="ingredients_wrapper">
+            <ul class="measurements">
+              <li class="listed_measurement">4.5 cL</li>
+              <li class="listed_measurement">2 dashes</li>
+              <li class="listed_measurement">1 cube</li>
+              <li class="listed_measurement">dash</li>
+            </ul>
+            <ul class="ingredients">
+              <li class="listed_ingredient">Bourbon</li>
+              <li class="listed_ingredient">Angostura bitters</li>
+              <li class="listed_ingredient">Sugar</li>
+              <li class="listed_ingredient">Water</li>
+            </ul>
+            <div class="img_wrapper">
+              <img
+                class="main_img"
+                src="https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg"
+              />
+            </div>
+          </div>
+          <p class="main_catagory">Catagory: Cocktail</p>
+          <p class="main_glass">Glass: Old-fashioned glass</p>
+          <p class="main_description">
+            Instructions: Place sugar cube in old fashioned glass and saturate
+            with bitters, add a dash of plain water. Muddle until dissolved.<br />Fill
+            the glass with ice cubes and add whiskey.<br /><br />Garnish with
+            orange twist, and a cocktail cherry.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
